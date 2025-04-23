@@ -21,8 +21,6 @@ dependencies:
 # r2d installs jupyter-rsession-proxy, but in the base python env, not in the updated one
 - jupyter-rsession-proxy==2.3.0
 
-# jupytergis -- always latest, it's experimental
-- jupytergis
 
 # vscode
 - code-server==4.96.2
@@ -37,6 +35,7 @@ dependencies:
 - leafmap==0.43.2
 - maplibre==0.3.0
 - streamlit==1.39.0
+- jupytergis
 
 # other packages
 - altair==5.4.1
@@ -52,6 +51,7 @@ dependencies:
 - seaborn==0.13.2
 - minio=7.2.15
 - dask==2025.3.0
+- plotnine==0.14.5
 
 # pip installed packages, conda is prefered
 - pip==24.3.1
