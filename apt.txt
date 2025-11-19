@@ -52,3 +52,5 @@ libgbm1
 libasound2
 
 net-tools
+htop
+
